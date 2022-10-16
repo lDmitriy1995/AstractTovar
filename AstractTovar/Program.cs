@@ -15,10 +15,10 @@ namespace ConsoleApplicationTest
         {
             List<Commodity> commodities = new List<Commodity>
                                   {
-                                      new Product("молоко", 20, Convert.ToDateTime("01.12.2010"), 14),
-                                      new Product("кефир ", 30, Convert.ToDateTime("02.12.2010"), 6),
-                                      new Batch("йогурт", 30, 4, Convert.ToDateTime("04.12.2010"), 1),
-                                      new Batch("актимэль", 15, 4, Convert.ToDateTime("05.12.2010"), 21),
+                                      new Product("молоко", 20, Convert.ToDateTime("01.12.2022"), 14),
+                                      new Product("кефир ", 30, Convert.ToDateTime("02.12.2022"), 6),
+                                      new Batch("йогурт", 30, 4, Convert.ToDateTime("04.12.2022"), 1),
+                                      new Batch("актимэль", 15, 4, Convert.ToDateTime("05.12.2022"), 21),
                                       new Set("карандаши", 40, "цветные"),
                                       new Set("ручки", 50, "синие")
                                   };
